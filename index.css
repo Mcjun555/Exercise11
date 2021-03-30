@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+.sidenav{
+		height: 100%;
+		width: 250px;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		background-color: #0909FF;
+		overflow-x: hidden;
+		padding: 10px 10px 10px 10px;
+	}	
+	
+	.sidenav a{
+		padding: 20px 5px 20px 5px;
+		text-decoration: none;
+		font-size: 20px;
+		color: aliceblue;
+		display: block;
+	}
+	
+	.sidenav a:hover{
+		color: black;
+		background-color: powderblue;
+		padding: 20px 5px 5px 20px;
+		font-display: block;
+		border-radius: 15px;
+	}
+
+	.next{
+		margin-left: 250px;
+	}
+	
+	.pics{
+		padding: 10px 10px 10px 10px;
+	}
+	
+	.mainbg{
+		float: right;
+		top: 0;
+		right: 0;
+	}
+	.body{
+		background-image:linear-gradient(lightblue,#24ABE4);
+	}
+	
+	.subcontent{
+		float: right;
+		padding: 50px;
+	}
+
+	.subcontent img{
+		border-radius: 15px;
+		box-shadow: 10px 10px 3px 3px #030303;
+	}
+	
+	.subcontent2{
+		float: left;
+		padding: 50px;
+	}
+
+	.subcontent2 img{
+		border-radius: 15px;
+		box-shadow: 10px 10px 3px 3px #030303;
+	}
+	
+	.text{
+		text-align: left;
+		font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+		float: left;
+		font-size: 20px;
+	}
+	
+	.main{
+		margin-left: 20px;
+		padding: 10px;
+	}
+	
+	hr.uno{
+		border-radius: 10px solid white;
+	}
+	
+	hr.dos{
+		border-bottom-style: dashed;
+		border-radius: 10px blue;
+	}
+	
+	hr.tres{
+		border-style: none;
+		border-radius: 10px;
+	}
+
+.foot p{
+	float: right;
+}
